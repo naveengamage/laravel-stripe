@@ -9,7 +9,7 @@ Integrates the Stripe PHP library with Laravel 4 via a ServiceProvider, config, 
 Include laravel-stripe as a dependency in composer.json:
 
 ~~~
-"abodeo/laravel-stripe": "dev-master"
+"abodeo/laravel-stripe": "1.0.1"
 ~~~
 
 Run `composer install` to download the dependency.
@@ -64,4 +64,3 @@ In your Blade views, you may output your Stripe Publishable Key using the `@stri
           data-key="@stripeKey"
           data-amount="5000" data-description="One year's subscription"></script>
 ~~~
-
