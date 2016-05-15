@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-use \Stripe;
+use \Stripe\Stripe;
 
 class LaravelStripeServiceProvider extends ServiceProvider {
 
