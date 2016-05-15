@@ -1,5 +1,7 @@
-Stripe for Laravel 4
+Stripe for Laravel 4 with latest Stripe PHP Library
 ==============
+
+This version use Stripe PHP library latest version 3.12.0.
 
 Integrates the Stripe PHP library with Laravel 4 via a ServiceProvider, config, and Blade extensions.
 
@@ -9,7 +11,7 @@ Integrates the Stripe PHP library with Laravel 4 via a ServiceProvider, config, 
 Include laravel-stripe as a dependency in composer.json:
 
 ~~~
-"abodeo/laravel-stripe": "dev-master"
+"naveengamage/laravel-stripe": "dev-master"
 ~~~
 
 Run `composer install` to download the dependency.
